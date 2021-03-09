@@ -2,9 +2,6 @@ var map = L.eeGeo.map('map', '37ae5f488d24149f85ab465c04559bcf', {
   center: [38.63448119530529, -90.23229115529193],
   zoom: 14
 });
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
 
 var feature_one = {
   "type": "FeatureCollection",
